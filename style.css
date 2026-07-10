@@ -1,0 +1,141 @@
+style.css
+
+h1 { 
+  color:rgb(0, 0, 253);
+  font-size: 20px;
+}
+
+/*
+h1 selector 
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body { 
+  background: black;
+  color:azure;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.etiqueta {
+  color: azure;
+}
+.subtitulo {
+  color: rgb(172, 168, 168);
+  margin-top: 20px;
+  font-size: 18px;
+
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: 800;
+  color: #fafafa;
+}
+span{
+  color: #a78bfa;
+
+}
+.caixa-entrada {
+  width:620px;
+  background: #141419;
+  border-radius: 16px;
+  padding: 12px;
+  margin-top: 10px;
+  display:flex;
+
+  
+}
+textarea{
+  width:80%;
+  resize:none;
+  background:transparent;
+  outline:none;
+  padding:8px;
+  color:#fafafa;
+  font-size:15px;
+  border: none;
+
+
+
+}
+button {
+  width:20%;
+  padding:10px 20px;
+  color:azure;
+  background: #7c3aed;
+  border-radius: 10px;
+  border: none;
+  cursor:pointer;
+  font-weight: 600;
+
+  
+}
+
+.caixa_resultado {
+  width: 1400px;
+  display: flex;
+  padding: 24px;
+margin-top: 40px;
+background: #111114;
+border-radius: 12px;
+border: 1px solid #27272a;
+gap: 24px;
+
+
+}
+
+/* 1) ADICIONAMOS ISSO: A caixinha que segura o botão e o código juntos */
+.container-codigo {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* 2) ATUALIZAMOS ISSO: O bloco agora ocupa 100% da caixinha dele e reduziu um tiquinho a altura para dar espaço pro botão */
+.bloco-codigo {
+  width: 100%;
+  background: #0c0c0f;
+  padding: 20px;
+  font-size: 12px;
+  color: #22c55e;
+  white-space: pre-wrap;
+  overflow: auto;
+  height: 545px;
+  border-radius: 12px;
+  border: 1px solid #27272a;
+}
+
+/* 3) ADICIONAMOS ISSO: O visual do novo botão de copiar */
+.botao-copiar {
+  width: 100%;
+  padding: 12px;
+  background: #27272a;
+  color: #fafafa;
+  border: 1px solid #3f3f46;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.botao-copiar:hover {
+  background: #3f3f46;
+}
+
+.bloco-site {
+  width: 70%;
+  height: 600px;
+  border: 1px solid #27272a;
+  border-radius: 12px;
+  background-color: #1e1e1e;
+}

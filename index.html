@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IAGO PROGRAMADOR</title>
+</head>
+
+<body>
+    <p class="etiqueta">GERADOR DE SITE IA</p>
+
+    <h1>Crie sua Página <br> <span>com 1 prompt</span></h1>
+
+    <p class="subtitulo">Descreva seu negocio e veja a ia criar uma página profissional em segundos</p>
+    
+    <div class="caixa-entrada">
+        <textarea class="texto-pagina" placeholder="Descreva seu negocio EX: Cafeteria, loja, etc..."></textarea>
+        <button onclick="gerarCodigo()">Gerar</button>
+    </div>
+
+    <div class="caixa_resultado">
+        <!-- Criamos uma caixinha para segurar o botão e o código juntos -->
+        <div class="container-codigo">
+            <button class="botao-copiar" onclick="copiarCodigo()">Copiar Código</button>
+            <p class="bloco-codigo">O código gerado aparecerá aqui...</p>
+        </div>
+        
+        <iframe class="bloco-site"></iframe>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
