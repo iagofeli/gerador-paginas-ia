@@ -8,7 +8,7 @@ Um SaaS (Software as a Service) compacto que utiliza a API da Groq e o modelo **
 
 Aqui está o gerador criando uma estrutura de site em tempo real e aplicando o recurso de cópia automática do código:
 
-<video src="video gerador de site ia.mp4" controls autoplay loop muted width="100%"></video>
+<video src="video%20gerador%20de%20site%20ia.mp4" controls autoplay loop muted width="100%"></video>
 ---
 
 ## 🛠️ Tecnologias Utilizadas
